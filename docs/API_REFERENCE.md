@@ -1286,4 +1286,4 @@ print(comm_df.groupby('Community').size())
 ---
 
 **文档编译日期**: 2025-11-17
-**维护者**: lethaquinn <2679066373@qq.com>
+**维护者**: Zhihan Luo (github.com/Lune-lys)

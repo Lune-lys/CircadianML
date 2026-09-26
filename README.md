@@ -12,8 +12,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/lethaquinn/circadian-transcriptomics.git
-cd circadian-transcriptomics
+git clone https://github.com/Lune-lys/CircadianML.git
+cd CircadianML
 
 # Install dependencies
 pip install -r requirements.txt
@@ -77,13 +77,12 @@ Comprehensive usage examples are provided in
 
 If you use this software in your research, please cite:
 
-> Lethaquinn (2025). *Circadian Transcriptomics Analysis Pipeline: Advanced computational framework for circadian rhythm and biomarker discovery.* GitHub: [https://github.com/lethaquinn/CircadianML]
+> Zhihan Luo (2025). *Circadian Transcriptomics Analysis Pipeline: Advanced computational framework for circadian rhythm and biomarker discovery.* GitHub: [https://github.com/Lune-lys/CircadianML]
 
 ## Contact
 
-* Author: Lethaquinn
-* Email: [2679066373@qq.com](mailto:2679066373@qq.com)
-* GitHub: [@lethaquinn](https://github.com/lethaquinn)
+* Author: Zhihan Luo
+* GitHub: [github.com/Lune-lys](https://github.com/Lune-lys)
 
 > “Decoding the molecular rhythms of life through computational analysis.”
 ```

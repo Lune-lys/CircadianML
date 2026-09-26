@@ -1,5 +1,5 @@
 """
-Setup configuration for circadian-transcriptomics package.
+Setup configuration for CircadianML package.
 """
 
 from setuptools import setup, find_packages
@@ -11,14 +11,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="circadian-transcriptomics",
+    name="CircadianML",
     version="0.1.0",
-    author="Lethaquinn",
-    author_email="2679066373@qq.com",
+    author="Zhihan Luo",
+    author_email="lune-lys@users.noreply.github.com",
     description="Advanced computational framework for discovering circadian rhythms and biomarkers in transcriptomic data",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/lethaquinn/circadian-transcriptomics",
+    url="https://github.com/Lune-lys/CircadianML",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[

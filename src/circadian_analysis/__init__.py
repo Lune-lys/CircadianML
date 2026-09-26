@@ -4,8 +4,8 @@ Advanced computational framework for discovering circadian rhythms and biomarker
 """
 
 __version__ = "0.1.0"
-__author__ = "Lethaquinn"
-__email__ = "2679066373@qq.com"
+__author__ = "Zhihan Luo"
+__email__ = "lune-lys@users.noreply.github.com"
 
 from .rhythm_detection import jtk_cycle, lomb_scargle, cosinor
 from .phase_prediction import ml_models, ensemble

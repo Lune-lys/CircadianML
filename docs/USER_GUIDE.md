@@ -30,8 +30,8 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/lethaquinn/circadian-transcriptomics.git
-cd circadian-transcriptomics
+git clone https://github.com/Lune-lys/CircadianML.git
+cd CircadianML
 
 # 2. 安装依赖
 pip install -r requirements.txt
@@ -758,9 +758,9 @@ threshold = np.percentile(corr_matrix.values.flatten(), 95)  # Top 5%
 如果您在研究中使用了本工具，请引用：
 
 ```
-Lethaquinn (2025). Circadian Transcriptomics Analysis Pipeline:
+Zhihan Luo (2025). Circadian Transcriptomics Analysis Pipeline:
 Advanced computational framework for circadian rhythm and biomarker discovery.
-GitHub: https://github.com/lethaquinn/circadian-transcriptomics
+GitHub: https://github.com/Lune-lys/CircadianML
 ```
 
 ---

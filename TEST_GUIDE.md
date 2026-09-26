@@ -35,7 +35,7 @@ python -c "import numpy, pandas, scipy, sklearn, matplotlib; print('✅ 所有�
 
 ### 測試 1: 最簡單的導入測試
 ```bash
-cd /home/user/circadian-transcriptomics
+cd /home/user/CircadianML
 export PYTHONPATH=src
 python -c "from circadian_analysis import demo_analysis; print('✅ 模組導入成功')"
 ```

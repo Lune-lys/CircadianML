@@ -1,7 +1,7 @@
 # 🧬 Circadian Transcriptomics Analysis Pipeline - 技术文档
 
 **版本**: 0.1.0
-**作者**: lethaquinn
+**作者**: Zhihan Luo
 **日期**: 2025-11-17
 **语言**: Python 3.8+
 
@@ -89,7 +89,7 @@ Python文件: 22个
 ### 2.1 整体架构
 
 ```
-circadian-transcriptomics/
+CircadianML/
 │
 ├── src/circadian_analysis/          # 核心源代码
 │   ├── __init__.py                  # 包初始化，导出主要API
@@ -1076,8 +1076,8 @@ pytest --cov=src/circadian_analysis --cov-report=html tests/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/lethaquinn/circadian-transcriptomics.git
-cd circadian-transcriptomics
+git clone https://github.com/Lune-lys/CircadianML.git
+cd CircadianML
 
 # 创建虚拟环境（推荐）
 python -m venv venv
@@ -1094,7 +1094,7 @@ pip install -e .
 #### 8.1.2 使用pip安装（未来）
 
 ```bash
-pip install circadian-transcriptomics
+pip install CircadianML
 ```
 
 ### 8.2 Docker部署
@@ -1133,8 +1133,8 @@ docker run -it circadian-analysis /bin/bash
 
 ```python
 # 在Colab中安装
-!git clone https://github.com/lethaquinn/circadian-transcriptomics.git
-%cd circadian-transcriptomics
+!git clone https://github.com/Lune-lys/CircadianML.git
+%cd CircadianML
 !pip install -r requirements.txt
 
 import sys
@@ -1158,8 +1158,8 @@ After=network.target
 
 [Service]
 User=ubuntu
-WorkingDirectory=/home/ubuntu/circadian-transcriptomics
-Environment="PYTHONPATH=/home/ubuntu/circadian-transcriptomics/src"
+WorkingDirectory=/home/ubuntu/CircadianML
+Environment="PYTHONPATH=/home/ubuntu/CircadianML/src"
 ExecStart=/home/ubuntu/venv/bin/python examples/full_pipeline.py
 
 [Install]
@@ -1208,11 +1208,11 @@ ModuleNotFoundError: No module named 'circadian_analysis'
 **解决**:
 ```bash
 # 方法1: 设置PYTHONPATH
-export PYTHONPATH=/path/to/circadian-transcriptomics/src
+export PYTHONPATH=/path/to/CircadianML/src
 
 # 方法2: 在代码中添加路径
 import sys
-sys.path.insert(0, '/path/to/circadian-transcriptomics/src')
+sys.path.insert(0, '/path/to/CircadianML/src')
 
 # 方法3: 安装包
 pip install -e .
@@ -1590,12 +1590,12 @@ flake8 src/
 
 ## 联系方式
 
-**作者**: lethaquinn
-**Email**: 2679066373@qq.com
-**GitHub**: https://github.com/lethaquinn/circadian-transcriptomics
+**作者**: Zhihan Luo
+**GitHub**: github.com/Lune-lys
+**GitHub**: https://github.com/Lune-lys/CircadianML
 
 ---
 
 **文档更新日期**: 2025-11-17
 **文档版本**: 1.0
-**适用软件版本**: circadian-transcriptomics v0.1.0
+**适用软件版本**: CircadianML v0.1.0

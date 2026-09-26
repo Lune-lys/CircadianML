@@ -24,7 +24,7 @@ bash run_all_tests.sh
 只想快速驗證項目可運行？
 
 ```bash
-cd /home/user/circadian-transcriptomics
+cd /home/user/CircadianML
 export PYTHONPATH=src
 python -c "from circadian_analysis import demo_analysis; demo_analysis()"
 ```
